@@ -40,6 +40,20 @@ In this assignment, I've implemented two differenttext summarizer model using 1)
 | Pegasus | [Pegasus python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/pegasus_finetune_cnn.py) | [https://huggingface.co/Mousumi/finetuned_pegasus](https://huggingface.co/Mousumi/finetuned_pegasus)                                       |
 |   BART  |   [BART python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/bart_finetune_cnn.py)  | [https://huggingface.co/Mousumi/finetuned_pegasus](https://huggingface.co/Mousumi/finetuned_pegasus)                                      |
 
-✅ Q2: Evaluationof Text Summarizer 
+✅ Q2: Evaluation of Text Summarizer 
+
+**To Run the [test.py](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/test.py)
+
+**** For Pegasus:
+
+'''
+python test.py --model=pegasus
+'''
+
+**** For BART:
+
+'''
+python test.py --model=bart
+'''
 
 
