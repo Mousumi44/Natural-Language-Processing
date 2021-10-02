@@ -42,18 +42,26 @@ In this assignment, I've implemented two differenttext summarizer model using 1)
 
 ✅ Q2: Evaluation of Text Summarizer 
 
-**To Run the [test.py](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/test.py)
+### To Run the [test.py](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/test.py)
 
-**** For Pegasus:
+#### For Pegasus:
 
 ```
 python test.py --model=pegasus
 ```
 
-**** For BART:
+#### For BART:
 
 ```
 python test.py --model=bart
 ```
+
+#### Results:
+
+| Model   |             ROUGE-1         |           | ROUGE-2 |       |           | ROUGE-3 |      |           | ROUGE-L |       |
+|---------|-----------|---------|-------|-----------|---------|-------|-----------|---------|------|-----------|---------|-------|
+|         | Precision | Recall  | F1    | Precision | Recall  | F1    | Precision | Recall  | F1   | Precision | Recall  | F1    |
+| Pegasus | 28.36     | 50.72   | 34.1  | 11.74     | 20.55   | 14.0  | 6.63      | 11.41   | 7.79 | 18.37     | 33.83   | 22.25 |
+| BART    | 56.51     | 15.4    | 23.64 | 26.55     | 6.77    | 10.52 | 14.93     | 3.58    | 5.61 | 46.1      | 12.56   | 19.27 |
 
 
