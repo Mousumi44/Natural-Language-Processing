@@ -27,3 +27,19 @@ In this assignment, I've implemented a custom Word2Vec model following the paper
 In this part, I've used GloVe 300d vector and tested different word analogies. For example:
 * Spain is to Spanish as Germany is *togerman*
 * Japan is to Tokyo as France is to *paris*
+
+## Assignment 3: Implementation of Text Summarization
+
+In this assignment, I've implemented two differenttext summarizer model using 1) [Google PEGASUS](https://huggingface.co/transformers/model_doc/pegasus.html) and 2) [Facebook BART](https://huggingface.co/transformers/model_doc/bart.html). I used the pretrained model from huggingface and later fine-tuned on CNN/DailyMail dataset.
+
+
+✅ Q1: Implementation of Text Summarizer
+
+|  Model  |         Script        | URL for Fine-tuned Model on huggingface |
+|:-------:|:---------------------:|:---------------------------------------:|
+| Pegasus | [Pegasus python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/pegasus_finetune_cnn.py) | [https://huggingface.co/Mousumi/finetuned_pegasus](https://huggingface.co/Mousumi/finetuned_pegasus)                                       |
+|   BART  |   [BART python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/bart_finetune_cnn.py)  | [https://huggingface.co/Mousumi/finetuned_pegasus](https://huggingface.co/Mousumi/finetuned_pegasus)                                      |
+
+✅ Q2: Evaluationof Text Summarizer 
+
+
