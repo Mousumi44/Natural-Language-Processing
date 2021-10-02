@@ -46,14 +46,14 @@ In this assignment, I've implemented two differenttext summarizer model using 1)
 
 **** For Pegasus:
 
-'''
+```
 python test.py --model=pegasus
-'''
+```
 
 **** For BART:
 
-'''
+```
 python test.py --model=bart
-'''
+```
 
 
