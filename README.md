@@ -66,6 +66,6 @@ python test.py --model=bart
 
 #### References:
 
-[1. Model sharing and uploading huggingface] (https://huggingface.co/transformers/model_sharing.html)
+[1. Model sharing and uploading huggingface](https://huggingface.co/transformers/model_sharing.html)
 
 
