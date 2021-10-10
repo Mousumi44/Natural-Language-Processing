@@ -38,7 +38,7 @@ In this assignment, I've implemented two differenttext summarizer model using 1)
 |  Model  |         Script        | URL for Fine-tuned Model on huggingface |
 |:-------:|:---------------------:|:---------------------------------------:|
 | Pegasus | [Pegasus python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/pegasus_finetune_cnn.py) | [https://huggingface.co/Mousumi/finetuned_pegasus](https://huggingface.co/Mousumi/finetuned_pegasus)                                       |
-|   BART  |   [BART python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/bart_finetune_cnn.py)  | [https://huggingface.co/Mousumi/finetuned_pegasus](https://huggingface.co/Mousumi/finetuned_pegasus)                                      |
+|   BART  |   [BART python Script](https://github.com/Mousumi44/Natural-Language-Processing/blob/main/assignment3/bart_finetune_cnn.py)  | [https://huggingface.co/Mousumi/finetuned_bart](https://huggingface.co/Mousumi/finetuned_bart)                                     |
 
 ✅ Q2: Evaluation of Text Summarizer 
 
